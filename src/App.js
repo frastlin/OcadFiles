@@ -6,6 +6,7 @@ class App extends Component {
       <div className="App">
 	<h2>Brandon's Site</h2>
 	<p>This is a site for Brandon</p>
+<p>here is some more text</p>
       </div>
     );
   }
