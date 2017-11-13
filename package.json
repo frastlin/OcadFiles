@@ -1,21 +1,28 @@
 {
-  "name": "toolo",
+  "name": "ocad_website",
   "version": "0.1.0",
   "homepage": "https://frastlin.github.io/Toolo/",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.0.0",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
+    "react": "^15.6.1",
+    "react-data-grid": "^2.0.69",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.13"
+    "react-scripts": "1.0.13",
+    "static-react-router": "^1.0.2",
+    "web-audio-daw": "^2.6.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-static-webpack-plugin": "^2.1.0"
   }
 }
