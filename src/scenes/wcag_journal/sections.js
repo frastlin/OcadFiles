@@ -6,7 +6,7 @@ export default [
 {title: "Preidea", contents:
 	<div>
 		<p>We knew we wanted to create something with audio maps.</p>
-		<p>We asked ourselves,: What types of audio maps have we used before?</p>
+		<p>We asked ourselves: What types of audio maps have we used before?</p>
 		<p>My first thought was:</p>
 		<a href="http://audiogames.net" target="blank">Audio Games.</a>
 	</div>},
@@ -40,7 +40,7 @@ export default [
 
 {title: "Deciding on a prototype",
 	contents: <div>
-	<p>The group started out by brainstorming what types of information would be critical to a blind person’s life. We first considered navigation, but then asked if there was critical information that was a matter of life or death. We then started thinking about natural disasters and hurricanes in particular. The question arose: How do blind people get information on if the hurricane is heading towards where they live? If blind people could watch the hurricane like everyone else, they could stop their reliance on other people to give them a filtered view of what was going on, and the blind person could interpret their danger level for themselves.</p>
+	<p>The group started out by brainstorming what types of information would be critical to a blind person's life. We first considered navigation, but then asked if there was critical information that was a matter of life or death. We then started thinking about natural disasters and hurricanes in particular. The question arose: How do blind people get information on if the hurricane is heading towards where they live? If blind people could watch the hurricane like everyone else, they could stop their reliance on other people to give them a filtered view of what was going on, and the blind person could interpret their danger level for themselves.</p>
 	</div>},
 
 {title: "Researching how blind people track natural disasters", contents: <div>
@@ -54,7 +54,7 @@ export default [
 <p>Here are the initial grids:</p>
 <Link to="/aria-grid">Aria Grid</Link>
 <Link to="/html-grid">Html Grid</Link>
-<p>Each has its own pros and cons. The pros of the HTML grid is that there are default settings that mean the programmer doesn’t need to worry about how they look. The cons are that the programmer has little control over the look of the grid.</p>
+<p>Each has its own pros and cons. The pros of the HTML grid is that there are default settings that mean the programmer doesn't need to worry about how they look. The cons are that the programmer has little control over the look of the grid.</p>
 <p>Aria has no appearance of a grid without CSS. It is fully customizable though and most programmers prefer to use it, even though it is much more difficult than html and it is almost impossible for sighted programmers to get all aspects of aria correct.</p>
 </div>},
 
@@ -78,7 +78,7 @@ export default [
 	</div>},
 
 {title: "What I learned from the interviews", contents: <div>
-	<p>We need to have something that is easy to use and integrates with the existing platforms. For example, the guy who Lena interviewed, said they would like to have audio or tactile graphs on their new web tool, but they don’t have any knowledge of how to implement audio graphs in their existing tools. Sonja, the TVI I interviewed, said that she needs to have something that is super easy and quick, and possibly something that teachers can use to make their handouts in the first place, so the teacher’s effort isn’t duplicated. Everyone we interviewed said accessibility of charts, maps and graphs is a problem, and they would all like to be a part of figuring out an answer to the problem.</p>
+	<p>We need to have something that is easy to use and integrates with the existing platforms. For example, the guy who Lena interviewed, said they would like to have audio or tactile graphs on their new web tool, but they don't have any knowledge of how to implement audio graphs in their existing tools. Sonja, the TVI I interviewed, said that she needs to have something that is super easy and quick, and possibly something that teachers can use to make their handouts in the first place, so the teacher's effort isn't duplicated. Everyone we interviewed said accessibility of charts, maps and graphs is a problem, and they would all like to be a part of figuring out an answer to the problem.</p>
 	</div>},
 
 {title: "Project Management Techniques", contents: <div>
