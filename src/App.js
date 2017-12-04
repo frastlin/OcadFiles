@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Link, } from 'react-router-dom';
 
-import Journal from './wcag_journal'
+import Journal from './scenes/wcag_journal'
+import Header from './components/header'
+
+const header_links = [
+	['/', 'Home'],
+	['/journal', 'WCAG Journal'],
+]
 
 function Home(){
-	return <p>This is home</p>
+return <p>Welcome to Brandon's Ocad website. Please select the project you wish to see from the above links.</p>
 }
 
 function PageNotFound(){
@@ -22,6 +28,7 @@ class App extends Component {
 	render() {
 		return (
 		<div>
+		<Header links={header_links} page_header="true" />
 
 		<Switch>
 		<Route exact path="/" component={Home} />
